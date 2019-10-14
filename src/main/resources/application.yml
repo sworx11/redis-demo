@@ -1,0 +1,22 @@
+server:
+  port: 88
+
+spring:
+  redis:
+    host: 192.168.0.101
+    port: 6379
+    password: 8851b0d288728a07fdc4a0e80ac276d0
+    timeout: 10000
+  mail:
+    default-encoding: UTF-8
+    host: smtp.163.com
+    username: iamchriswu@163.com
+    password: 1172477133wQ
+    properties:
+      mail:
+        smtp:
+          auth: true
+          timeout: 25000
+          ssl:
+            enable: true
+            require: true
